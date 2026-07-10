@@ -72,7 +72,26 @@ The project follows a layered design:
   - `PersonnelNotificationsPanel`
 - `src/util/DatabaseConnection.java` — database connection utility with URL and credential placeholders
 
+## Run Instructions
 
+1. Update the database configuration in `src/util/DatabaseConnection.java`:
+   - `DB_URL`
+   - `DB_USER`
+   - `DB_PASSWORD`
+
+2. Ensure the MySQL JDBC driver JAR is on the classpath.
+
+3. Compile the project from the root folder:
+
+```powershell
+javac -d out src/MainApplication.java src/DAO/*.java src/controller/*.java src/view/*.java src/util/*.java src/Model/*.java
+```
+
+4. Run the application:
+
+```powershell
+java -cp out MainApplication
+```
 
 ## Database Notes
 
