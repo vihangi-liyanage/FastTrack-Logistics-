@@ -99,8 +99,4 @@ java -cp out MainApplication
 - The `DatabaseConnection` utility currently points to a placeholder MySQL database URL.
 - You must create the required database and tables before running the application, or update the connection settings to match your environment.
 
-## Notes
 
-- The UI is built with Java Swing and uses a tabbed interface.
-- The code is designed for desktop deployment without external build tools.
-- The repository root contains the main `src/` codebase for the application.
