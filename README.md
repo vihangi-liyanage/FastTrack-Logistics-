@@ -93,11 +93,6 @@ javac -d out src/MainApplication.java src/DAO/*.java src/controller/*.java src/v
 java -cp out MainApplication
 ```
 
-## Database Notes
-
-- The application uses JDBC to connect to a SQL database.
-- The `DatabaseConnection` utility currently points to a placeholder MySQL database URL.
-- You must create the required database and tables before running the application, or update the connection settings to match your environment.
 
 
 
